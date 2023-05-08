@@ -1,0 +1,1 @@
+﻿Console.WriteLine(IronSW.OldPhonePadTranslator.OldPhonePad("4433555 5556660444777666 6677779#"));
