@@ -9,7 +9,7 @@ For example, pressing 2 once will return ‘A’ but pressing twicein succession
 You must pause for a second in order to type two characters from the same button
 after each other: “222 2 22” -> “CAB”.
 
-![Example of an old phone keyboard](https://github.com/gasgallo/OldPhonePad/blob/main/old_phone_pad.jpg)
+![Example of an old phone keyboard](https://github.com/gasgallo/OldPhonePad/blob/main/old_phone_pad.png)
 
 ## Solution
 Create a C# library to translate the key strokes of numbers of the keypad into a string.
