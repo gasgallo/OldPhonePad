@@ -17,6 +17,7 @@ public class UnitTest
     [InlineData("Z", "9999##")]
     [InlineData(" ", "0#")]
     [InlineData("HELLO THERE", "4433555 55566608443377733#")]
+    [InlineData("&", "1111111#")]
     public void TestOldPhonePad(string outputSent, string inputSeq)
     {
         Assert.Equal(outputSent, IronSW.OldPhonePadTranslator.OldPhonePad(inputSeq));
